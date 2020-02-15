@@ -2,7 +2,6 @@
 # My resume Junior Developer
 
 ##  Vokhmianin Vladislav
-![Some Image] (https://github.com/Vladislav199425/test/1_PO8U_MBDKmqaraxnku6NKQ.jpeg)
 about me 
 I'm 25
 I live in Russia in Nizhny Novgorod
