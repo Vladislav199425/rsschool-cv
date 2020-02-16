@@ -2,7 +2,7 @@
 # My resume Junior Developer
 
 ##  Vokhmianin Vladislav
-![picture] ( //img/example1.jpeg "example")
+![picture] (//img/example1.jpeg "example")
 
 about me 
 I'm 25
@@ -81,15 +81,15 @@ function getRendomInt(max) {
 writeneo()
 
 ```
-###Experience
+### Experience
 I pass courses:
   Курс Аександра Лущенко  [JavaScript v2.0] (https://itgid.info/js2 "link to course")
   
-###Education
+### Education
 I graduated:
 * *undergraduate* - NSTU. R.E. Aekseeva INEL. power engineering
 * *Master* - NSTU named after R.E. Aekseeva INEL IRIT. PCB design.
 JS Courses:
 Курс Аександра Лущенко  [JavaScript v2.0] (https://itgid.info/js2 "link to course")
-8. English (elaborate on what kind of practice you had, if any, how long it lasted and so on)
+### English
 I took pre-intermediate English language courses at a language school, more than a year ago, now I study myself: I read books, pass tests, talk.
