@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Portfolio Vladislav </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main class="container">
+        <div class="main-text">
+            <h1> Vladislav Vokhmianin</h1>
+            <h1> Junior Developer</h1>
+        </div>
+        <div class="logo-area">
+            <img src="./img/photo.jpeg" alt='photo' width="300">
+        </div>
+        <p>About me.I'm 25 I live in Russia in Nizhny Novgorod I'm Junior Developer</p>
+        <p>
+            <ul>contact :
+                <li>mail <a href="vladislav@gmail.com">vladislav@gmail.com</a> </li>
+                <li>vk <a href="https://vk.com/id72448498">https://vk.com/id72448498</a> </li>
+            </ul>
+        </p>
+
+        <h2> My goal</h2>
+        <hr>
+        <span class="goal">
+            I wanna become to good programmer. I don’t want to leave work with the thought "Fuh, another day of my life
+            has passed spent on an unloved business." When I started to study programming, the main idea was - there are
+            big salaries in this profession, you need to master this profession. But in the learning process, I realized
+            that I like to learn Js, Html, CSS - it’s really interesting, you don’t force yourself, you just come in and
+            make a website / study the framework or do codewars. I understand that you won’t become a programmer on the
+            fingertips and that’s why I’m ready to go through all the tests to become a Js developer Ps. <b>I have
+                burning
+                gas)</b> You can verify this in a personal meeting at an interview) </span>
+        <span>
+            <table>
+                <caption> Self-presentation</caption>
+                <tr>
+                    <th> I now</th>
+                    <th> Start study</th>
+                    <th> English level</th>
+                </tr>
+                <tr class="row-1">
+                    <td> Html</td>
+                    <td> React</td>
+                    <td> Intermediate</td>
+                </tr>
+                <tr>
+                    <td> Css </td>
+                    <td> </td>
+                    <td> </td>
+                </tr>
+                <tr class="row-2">
+                    <td>JS </td>
+                    <td> </td>
+                    <td> </td>
+                </tr>
+                <tr>
+                    <td>React </td>
+                    <td> </td>
+                    <td> </td>
+                </tr>
+            </table>
+        </span>
+        <div class="example prog">
+            <p>This program type text like in film Neo</p>
+            <code>
+                const t = <br>
+                'Wake up, Neo',<br>
+                'Follow in white rabbit'<br>
+            ];<br>
+            
+            function writeneo() {<br>
+                let count = 0;<br>
+                let line = 0;<br>
+                let out = '';<br>
+                let indexout = document.querySelector('.out');<br>
+            
+                function writeneo() {<br>
+                    // рисуем строку <br>
+                    let interval = setTimeout(function () {<br>
+                        out += t[line][count];<br>
+                        indexout.innerHTML = out + "/";<br>
+                        count++;<br>
+                        //проверка <br>
+                        // не закончилась ли строка <br>
+                        if (count >= t[line].length) {<br>
+                            out += `<br>`;<br>
+                            count = 0;<br>
+                            line++;<br>
+                            console.log(1);<br>
+                            if (line == t.length) {<br>
+                                clearInterval(interval); // останавливваем таймаут<br>
+            
+                                indexout.innerHTML = out; // убираем вертикальную черту <br>
+                                return true;<br>
+                            }<br>
+                        }<br>
+                        writeneo();<br>
+                    }, getRendomInt(getRendomInt(300 * 2)));<br>
+                }<br>
+                writeneo();<br>
+            }<br>
+            
+            function getRendomInt(max) {<br>
+                return Math.floor(Math.random() * Math.floor(max))<br>
+            }<br>
+            writeneo()<br>
+            </code>
+
+            </span>
+        </div>
+        <div class="Experience">
+            <h2>Experience</h2>
+            <p>I pass courses: Курс Аександра Лущенко</p>
+        </div>
+        <div class="Education">
+            <p>I graduated: </p>
+            <ul>
+                <li> undergraduate - NSTU. R.E. Aekseeva INEL. power engineering</li>
+                <li> Master - NSTU named after R.E. Aekseeva INEL IRIT.</li>
+            </ul>
+        </div>
+        <div class="eng">
+            <h2>English</h2>
+            <p>
+                I took pre-intermediate English language courses at a language school, more than a year ago, now I study
+                myself: I read books, pass tests, talk.
+            </p>
+        </div>
+
+    </main>
+    <footer>
+        All right
+    </footer>
+
+</body>
+
+</html>

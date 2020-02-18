@@ -1,0 +1,83 @@
+
+    body {
+        position: absolute;
+        padding-left: 100px;
+        font-family:  Georgia, Times, 'Times New Roman', serif;
+        font-size: 30px;
+        line-height: 2;
+        text-align: left;
+        font-size: 14px;
+        line-height: 16px;
+        
+    }
+    .container {
+        font-size: 20px;
+        line-height: 2;
+    }
+    .main-text{
+        font-size: 30px;
+        line-height: 1.5;
+        color: rgb(245, 191, 120);
+    }
+    .goal{
+        font-size: 25px;
+        text-align: justify ;
+        line-height: 1;
+    }
+    table{
+        border: 6px solid black;
+        border-collapse: collapse;
+        width: 500px;
+        height: 250px;
+    }
+    th {
+        padding: 5px;
+        padding-right: 30px;
+        background-color: rgb(255, 219, 17);
+        text-align: center;
+
+    }
+    td {
+        border: 3px solid lightgray;
+        padding: 5px;
+        padding-right: 30px;
+        text-align: center;
+        background-color: lightyellow;
+    }
+    caption{
+        caption-side: top;
+        text-align: center;
+    }
+    
+        
+    
+    .content {
+        max-width: 1024px;
+        margin: 0 auto;
+        padding: 50px 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .avatar {
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        object-fit: cover;
+        object-position: 50% 0;
+        margin-bottom: 20px;
+    }
+    .info {
+        max-width: 600px;
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .info li:not(:last-child) {
+        margin-bottom: 15px;
+    }
+    .detail-info {
+        margin: 25px;
+        font-size: 16px;
+        line-height: 20px;
+    }
